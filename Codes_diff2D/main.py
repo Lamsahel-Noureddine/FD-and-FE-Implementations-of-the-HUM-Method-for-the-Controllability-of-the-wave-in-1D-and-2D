@@ -18,7 +18,7 @@ from plot import *
 import time
 #Space discretization 
   ##x
-N1=80
+N1=50
 h1=1./(N1+1)
 x=np.linspace(0,1,N1+2)
   ###y
