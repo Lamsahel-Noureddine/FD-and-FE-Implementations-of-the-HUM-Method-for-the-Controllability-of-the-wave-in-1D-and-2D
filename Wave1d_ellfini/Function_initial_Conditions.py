@@ -26,10 +26,10 @@ def w(x):          # phi^1
 #The initial conditions 
 
 def y0(x): 
-    #return np.exp(-(5*(x-0.35))**6)
+    return np.exp(-(5*(x-0.35))**6)
     #return np.sin(np.pi*x)
     #return np.exp(-x)-1
-    return x
+    #return x
     '''
     XX=x.copy()
     i=0
