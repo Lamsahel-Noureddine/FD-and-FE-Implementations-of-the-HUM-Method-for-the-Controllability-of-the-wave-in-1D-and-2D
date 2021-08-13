@@ -17,7 +17,7 @@ from Functions_util import *
 from plotcontrolsystem import *
 import time
 #space discretization 
-N=300
+N=350
 h=1./(N+1)
 x=np.linspace(0,1,N+2)
 
@@ -29,7 +29,7 @@ A0=4*np.diag(np.ones(N))+np.diag(np.ones(N-1),1)+np.diag(np.ones(N-1),-1)
 B0=2*np.diag(np.ones(N))-np.diag(np.ones(N-1),1)-np.diag(np.ones(N-1),-1)
 
 # CFL
-C=0.01
+C=1/np.sqrt(3)
 
 #Time discretization 
 T=2.2
