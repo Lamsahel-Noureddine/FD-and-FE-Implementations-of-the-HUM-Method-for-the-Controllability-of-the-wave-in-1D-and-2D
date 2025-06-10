@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  3 14:40:05 2021
 
-@author: EL BERDAI ADAM
+@author: Lamsahel
 """
 import numpy as np
 
