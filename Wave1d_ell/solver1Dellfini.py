@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  3 14:11:57 2021
 
-@author: EL BERDAI ADAM
+@author: Lamsahel
 """
 import numpy as np
 from scipy import linalg as lg
